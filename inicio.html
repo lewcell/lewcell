@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #a4508b, #5f0a87);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu {
+            background: rgba(255,255,255,0.1);
+            padding: 40px 60px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .menu a {
+            color: #fff;
+            background: #7f53ac;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            transition: background 0.3s, transform 0.3s;
+            box-shadow: 0 4px 14px rgba(127, 83, 172, 0.2);
+        }
+        .menu a:hover {
+            background: #5f0a87;
+            transform: scale(1.05);
+        }
+        /* Redes sociales en la esquina inferior derecha */
+        .social-links {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 100;
+        }
+        .social-links a {
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.8em;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+        }
+        .social-links a.whatsapp { background: #25D366; }
+        .social-links a.instagram { background: #E1306C; }
+        .social-links a.facebook { background: #4267B2; }
+        .social-links a.telegram { background: #0088cc; }
+        .social-links a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body>
+  <div class="menu">
+     <h1 style="color:#fff; text-align:center; margin-bottom:20px; letter-spacing:2px; text-shadow: 0 2px 8px #5f0a87;">lewcell</h1>
+    <a href="ventacelulares.html">Venta</a>
+    <a href="compracelulares.html">Compra</a>
+    <a href="publicidad.html">Publicidad</a>
+  </div>
+  <div class="social-links">
+    <a class="whatsapp" href="https://wa.me/573170592114  " target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a class="instagram" href="https://instagram.com/lewcell" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a class="facebook" href="https://www.facebook.com/profile.php?id=61581142916929" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a class="telegram" href="https://t.me/+7IgZWqWAae1mOTNh" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+  </div>
+</body>
+</html>
